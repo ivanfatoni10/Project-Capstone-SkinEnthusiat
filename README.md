@@ -1,7 +1,4 @@
-Capstone Project
-[SkinEnthusiast]
 [Product Capstone]
-
 
 Team ID              : C241-PR563
 Selected Themes/Case : Health Innovation: Empowering Vulnerable Communities for Health and Well-being
