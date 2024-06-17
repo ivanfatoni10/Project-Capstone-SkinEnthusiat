@@ -21,4 +21,5 @@ Member Name          :
 (CC)  C546D4NY1347 – Muhammad Fikri – UIN Sultan Syarif Kasim Riau
 
 (MD) A007D4KX3421 – Ghina Fairuz Mumtaz – Universitas Dian Nuswantoro
+
 (MD) A556D4KY3576 – Azrul Maulana Ihsan – Universitas Cendekia Abditama
