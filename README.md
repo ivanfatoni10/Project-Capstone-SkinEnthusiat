@@ -5,8 +5,12 @@ Team ID              : C241-PR563
 
 Selected Themes/Case : Health Innovation: Empowering Vulnerable Communities for Health and Well-being
 
-Advisor Name         : STEVEN JOSEPH RYHADI
-                       DITA AMALLYA
+Advisor Name         :
+
+STEVEN JOSEPH RYHADI
+
+DITA AMALLYA
+
 
 Member Name          :
 
