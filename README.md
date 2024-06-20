@@ -13,7 +13,6 @@ https://colab.research.google.com/drive/18sIG3Dl5Gmcz0Tlm5HOmHirAFc08qTth#scroll
     - 80% of train data
     - 5% of validation data
     - 20% of test data
-  - Balancing datasets with `imblearn.over_sampling` module
   - Resizing the datasets into 150x150 and convert it to numpy array
 
 ## 3. Training
