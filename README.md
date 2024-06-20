@@ -1,4 +1,4 @@
-# SkinSkan Model 
+# SkinEnthusiast Model 
 
 The project is based from Google Colab (due to limited system requirements of our laptop/PC). Using Machine Learning with Tensorflow as framework to Classify the skin disease. 
 
