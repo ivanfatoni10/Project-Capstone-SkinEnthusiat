@@ -10,31 +10,24 @@ https://colab.research.google.com/drive/18sIG3Dl5Gmcz0Tlm5HOmHirAFc08qTth#scroll
 
 ## 2. Pre-processing Datasets
   - Spliting datasets into:
-    - 80% of train data
-    - 5% of validation data
-    - 20% of test data
+    - 74% of train data
+    - 19% of validation data
+    - 7% of test data
   - Resizing the datasets into 150x150 and convert it to numpy array
 
 ## 3. Training
-
-   - Using transfer learning Xception to make model accuracy better.
-   - Using `SparseCategoricalCrossentropy` as loss
    - Using `Adam(learning_rate=1e-5)` as optimizer 
    - Added more layer too to `model.Sequential` to make model accuracy more better:
-     -  Added `AveragePooling2D` layer
+     -  Added `MaxPooling2D` layer
      -  Added `Flatten` layer
-     -  Added `Dense(units=64, activation='relu')` layer 
+     -  Added `Dense(512, activation='relu')` layer 
      -  Added `Dropout(units=0.05)` layer
-     -  Added more `Dense(units=16, activation='relu')` layer
-     -  Added output layer `Dense(units=2, activation='sigmoid' kernel_regularizer=l2(0.01))`
-  - Training with 20 epochs
-  - Set the callbacks `EarlyStopping` to stop training when accuracy doesn't improve
-  - Set the callbacks `ModelCheckpoint` to saved the model (also the weight) in every epochs with *.h5 format  
+     -  Added more `Dense(units=13, activation='softmax')` layer
+  - Training with 20 epochs 
   - From the result, got:
-    - `loss: 38%`
-    - `accuracy: 83%`
+    - `loss: 0.38`
+    - `accuracy: 0.83`
 
 ## 4. Saved the Model to Google Drive
-
   - Then, saved the model (*tf js format) to Google Drive (saved only the best model to Google Drive):<br>
 https://drive.google.com/drive/folders/1b-oI_0IShqYNg0dYk6-Y4psmX6_gmHCg
