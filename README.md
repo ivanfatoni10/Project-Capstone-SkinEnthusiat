@@ -36,5 +36,5 @@ https://colab.research.google.com/drive/18sIG3Dl5Gmcz0Tlm5HOmHirAFc08qTth#scroll
 
 ## 4. Saved the Model to Google Drive
 
-  - Then, saved the model (*.h5 format) to Google Drive (saved only the best model to Google Drive):<br>
+  - Then, saved the model (*tf js format) to Google Drive (saved only the best model to Google Drive):<br>
 https://drive.google.com/drive/folders/1b-oI_0IShqYNg0dYk6-Y4psmX6_gmHCg
