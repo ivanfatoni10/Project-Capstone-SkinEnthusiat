@@ -16,7 +16,7 @@ https://colab.research.google.com/drive/18sIG3Dl5Gmcz0Tlm5HOmHirAFc08qTth#scroll
   - Resizing the datasets into 150x150
 
 ## 3. Training
-   - Using `Adam(learning_rate=1e-5)` as optimizer 
+   - Using `Adam(learning_rate=0.001)` as optimizer 
    - Added more layer too to `model.Sequential` to make model accuracy more better:
      -  Added `MaxPooling2D` layer
      -  Added `Flatten` layer
