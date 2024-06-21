@@ -13,7 +13,7 @@ https://colab.research.google.com/drive/18sIG3Dl5Gmcz0Tlm5HOmHirAFc08qTth#scroll
     - 74% of train data
     - 19% of validation data
     - 7% of test data
-  - Resizing the datasets into 150x150 and convert it to numpy array
+  - Resizing the datasets into 150x150
 
 ## 3. Training
    - Using `Adam(learning_rate=1e-5)` as optimizer 
